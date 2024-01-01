@@ -1,9 +1,11 @@
 # Start with Git!
-This is a short start tutorial for git for self usage. 
+This README serves as a concise and quick introductory tutorial for Git and GitHub for personal use. All content is based on tutorials authored by Colt Steele on Youtube and the corresponding notes. Please refer to links in Tutorials section for more detailed guidance on Git.
 
 ## Tutorials:
-1. Start with Git: https://videotutorials.notion.site/Introduction-to-Git-ac396a0697704709a12b6a0e545db049#e0920693bebe4ffd94e973d60bd3f6b4
-2. About GitHub: https://videotutorials.notion.site/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7
+1. Introduction to Git        : https://videotutorials.notion.site/Introduction-to-Git-ac396a0697704709a12b6a0e545db049#e0920693bebe4ffd94e973d60bd3f6b4
+2. Introduction to GitHub     : https://videotutorials.notion.site/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7
+3. Learn Git In 15 Minutes    : https://www.youtube.com/watch?v=USjZcfj8yxE
+4. Learn Github in 20 Minutes : https://www.youtube.com/watch?v=nhNq2kIvi9s
 
 ## Commands:
 
@@ -24,7 +26,7 @@ git add .
 git add file.py file2.py
 ```
 ### 5. Commit 
-We can commit for multiple times, note that `m` stands for the word `message`.
+We can commit for multiple times, note that `-m` stands for the word `message`.
 ```bash
 git commit -m "Your commit message"
 ```
@@ -38,12 +40,14 @@ git history
 The first command is for creating a new branch;
 The second with the word `checkout` means switch to `branch1`;
 The third does both.
+Note that `-b` stands for the word `branch`.
 ```bash
 git branch branch1
 git checkout branch1
 git checkout -b branch1
 ```
 ### 8. Delete branch
+Note that `-d` stands for the word `delete`.
 ```bash
 git branch -d branch1
 ```
