@@ -57,9 +57,10 @@ git merge branch1
 ```
 
 ## Push to GitHub:
-### 1. Initial commit to the local repository
+### 1. Initial commit to local repository
 Repeat local commands from step 1 to 5 to make initial commit to the local repository.
-### 2. Create new remote 
+### 2. Create new GitHub repository
+This is a remote one.
 
 ### 3. 
 ```bash
