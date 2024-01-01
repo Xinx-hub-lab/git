@@ -1,5 +1,5 @@
 # Start with Git!
-This README serves as a concise and quick introductory tutorial for Git and GitHub for personal use. All content is based on tutorials authored by Colt Steele on Youtube and the corresponding notes. Please refer to links in Tutorials section for more detailed guidance on Git.
+This README serves as a concise and **quick introductory tutorial for Git and GitHub** for **personal use**. All content is based on tutorials authored by *Colt Steele* on Youtube and the corresponding notes. Please refer to links in Tutorials section for more detailed guidance on Git.
 
 ## Tutorials:
 1. Introduction to Git        : https://videotutorials.notion.site/Introduction-to-Git-ac396a0697704709a12b6a0e545db049#e0920693bebe4ffd94e973d60bd3f6b4
@@ -7,7 +7,7 @@ This README serves as a concise and quick introductory tutorial for Git and GitH
 3. Learn Git In 15 Minutes    : https://www.youtube.com/watch?v=USjZcfj8yxE
 4. Learn Github in 20 Minutes : https://www.youtube.com/watch?v=nhNq2kIvi9s
 
-## Commands:
+## Local Commands:
 
 ### 1. Create a new folder and direct
 ### 2. Initialize
@@ -56,5 +56,15 @@ git branch -d branch1
 git merge branch1
 ```
 
+## Push to GitHub:
+### 1. Initial commit to the local repository
+Repeat local commands from step 1 to 5 to make initial commit to the local repository.
+### 2. Create new remote 
 
+### 3. 
+```bash
 git remote add origin https://github.com/Xinx-hub-lab/ml_homework_backup.git
+```
+
+
+
