@@ -62,9 +62,10 @@ Repeat local commands from step 1 to 5 to make initial commit to the local repos
 ### 2. Create new GitHub repository
 This is a remote one.
 
-### 3. 
+### 3. Push files to GitHub repository
 ```bash
-git remote add origin https://github.com/Xinx-hub-lab/ml_homework_backup.git
+git remote add origin https://github.com/<your-username>/<your-repo-name>.git
+git push -u origin master
 ```
 
 
