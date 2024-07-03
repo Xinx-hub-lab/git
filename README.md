@@ -61,12 +61,12 @@ git merge branch1
 Repeat local commands from step 1 to 5 to make initial commit to the local repository.
 ### 2. Create new GitHub repository
 This is a remote one.
-
-### 3. Push files to GitHub repository
+### 3. Push files to GitHub repository with SSH key
 ```bash
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
+git remote set-url origin git@github.com:<your-username>/<your-repo-name>.git
 git push -u origin master
 ```
+### 4. 
 
 
 
