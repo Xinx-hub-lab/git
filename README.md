@@ -66,7 +66,11 @@ This is a remote one.
 git remote add origin git@github.com:<your-username>/<your-repo-name>.git
 git remote -v
 ```
-### 4. Push files to GitHub repository 
+### 4. Pull README and Push files to GitHub repository 
+```bash
+git config pull.rebase true
+git pull origin main
+```
 ```bash
 git push -u origin master
 ```
