@@ -72,7 +72,7 @@ git config pull.rebase true
 git pull origin main
 ```
 ```bash
-git push -u origin master
+git push -u origin main
 ```
 
 
