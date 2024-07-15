@@ -35,7 +35,7 @@ git commit -m "Your commit message"
 ### 1. Initial commit to local repository
 Repeat **Initializations** from step 1 to 5 to make initial commit to the local repository.
 ### 2. Create new GitHub repository
-Create a repository on GitHub.
+Create a repository on GitHub. Add README if needed. If it is not included in the new repository then Step 5 is not needed.
 ### 3. Clone with SSH key
 ```bash
 git remote add origin git@github.com:<your-username>/<your-repo-name>.git
