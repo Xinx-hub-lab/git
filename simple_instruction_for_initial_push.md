@@ -44,7 +44,7 @@ git remote add origin git@github.com:<your-username>/<your-repo-name>.git
 ```bash
 git remote -v
 
-## Output shows:
+## Output:
 origin	git@github.com:<your-username>/<your-repo-name>.git (fetch)
 origin	ggit@github.com:<your-username>/<your-repo-name>.git (push)
 ```
