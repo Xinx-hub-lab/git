@@ -31,7 +31,7 @@ We can commit for multiple times, note that `-m` stands for the word `message`.
 git commit -m "Your commit message"
 ```
 
-## Push to GitHub:
+## Push to GitHub
 ### 1. Initial commit to local repository
 Repeat **Initializations** from step 1 to 5 to make initial commit to the local repository.
 ### 2. Create new GitHub repository
