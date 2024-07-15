@@ -1,6 +1,19 @@
 # Git Pull & Branch Management
 
-## 
+## Push Local Changes
+
+### 1. Check Git Status
+```bash
+git status
+```
+
+### 2. 
+
+git push -u origin main
+
+## Reset SSH Key (Optional)
+
+If asked for users name and password, update the repository URL by SSH key.
 
 ### 1. Check Git Status
 ```bash
@@ -8,12 +21,12 @@ git status
 ```
 
 ### 2. Reset SSH Key
-If asked for users name and password, update the repository URL by SSH key.
+
 ```bash
 git remote set-url origin git@github.com:<your-username>/<your-repo-name>.git
 ```
 
-git push -u origin main
+
 
 ## Rename and Delete Branch
 
