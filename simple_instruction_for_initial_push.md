@@ -43,9 +43,9 @@ git remote add origin git@github.com:<your-username>/<your-repo-name>.git
 ### 4. Confirm Cloning
 Output would be 
 
-`origin	git@github.com:<your-username>/<your-repo-name>.git (fetch)`
+`origin	git@github.com:<your-username>/<your-repo-name>.git (fetch)
 
-`origin	ggit@github.com:<your-username>/<your-repo-name>.git (push)`
+origin	ggit@github.com:<your-username>/<your-repo-name>.git (push)`
 
 ```bash
 git remote -v
