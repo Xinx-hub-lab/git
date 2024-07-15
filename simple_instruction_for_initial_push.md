@@ -41,12 +41,12 @@ Create a repository on GitHub. Add README if needed. If it is not included in th
 git remote add origin git@github.com:<your-username>/<your-repo-name>.git
 ```
 ### 4. Confirm Cloning
+Output would be 
+`origin	git@github.com:<your-username>/<your-repo-name>.git (fetch)`
+`origin	ggit@github.com:<your-username>/<your-repo-name>.git (push)`
+
 ```bash
 git remote -v
-
-## Output:
-origin	git@github.com:<your-username>/<your-repo-name>.git (fetch)
-origin	ggit@github.com:<your-username>/<your-repo-name>.git (push)
 ```
 ### 5. Pull README 
 ```bash
@@ -54,11 +54,11 @@ git config pull.rebase true
 git pull origin main
 ```
 ### 6. Rename Branch master as main
-```bash
-## check existing branches, output shows there is only one branch *master
-git branch
+Check for existing branch by `git branch`, output would show only one branch `*master`.
+Then rename master to main.
 
-## rename master to main
+```bash
+git branch
 git branch -m master main
 ```
 ### 7. Push files to GitHub repository
