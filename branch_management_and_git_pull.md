@@ -3,31 +3,33 @@
 ## Pull Remote Changes
 
 ### 1. Check Git Status
-`git status` will show local changes, but not remote ones. 
+Check the state of the local changes. This command will not show changes from the remote repository.
 ```bash
 git status
 ```
 
 ### 2. Pull Remote Changes
-You can try pushing first and usually there will be an error. Therefore we need to first pull the remote changes.
+Pull remote changes to ensure your local repository is up to date. Attempting to push (`git push origin main`) without pulling can lead to errors if there are remote changes.
 ```bash
 git pull origin main
 ```
 ### 3. Create a Merge Commit
-An error occured as local and remote repository has both made changes. This makes git pull use the merge strategy by default. It will create a merge commit in your local repository to reconcile any differences between your local branch and the remote branch. This keeps the history of both branches and merges them together.
+If both the local and remote repositories have changes, Git may default to a merge strategy, potentially leading to a merge conflict. 
+
+Configure Git to use the merge strategy by default:
 ```bash
 git config pull.rebase false
 ```
-Return to Step 2 to pull the remote changes. Note that the remote files has been updated in the local repository, but not the local files to the remote repository.
+This is only needed once. Return to Step 2 to pull the remote changes. 
 
-### 4. 
-Press `i` to switch to Insert mode. 
+This updates your local repository with remote files but does not yet push your local changes to the remote repository.
 
-Type your commit message
-
-Press ESC to exit Insert mode and return to Command mode
-
-To save your commit message and exit Vim, type :wq (write and quit) and press Enter.
+### 4. Commit Changes
+If a merge commit is necessary, Git will prompt you to create a commit message:
+- Press `i` to switch to Insert mode
+- Type the commit message
+- Press `ESC` to exit Insert mode and return to Command mode
+- Type `:wq` (write and quit) and press `Enter` to save commit message and exit Vim
 
 ## Push Local Changes
 
@@ -38,8 +40,11 @@ git commit -m "Your commit message"
 git push origin main
 ```
 
-### 2. Error occurred?
-If Step 1 does not work, try pulling first.
+### 2. Handle Errors
+If pushing fails, it may be due to the remote having updates that your local branch does not have. If this occurs:
+
+- First, pull the remote changes as described in steps 2 and 3.
+- After resolving any conflicts and successfully pulling, attempt to push again.
 
 
 ## Reset SSH Key (Optional)
