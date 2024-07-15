@@ -42,7 +42,9 @@ git remote add origin git@github.com:<your-username>/<your-repo-name>.git
 ```
 ### 4. Confirm Cloning
 Output would be 
+
 `origin	git@github.com:<your-username>/<your-repo-name>.git (fetch)`
+
 `origin	ggit@github.com:<your-username>/<your-repo-name>.git (push)`
 
 ```bash
@@ -55,7 +57,7 @@ git pull origin main
 ```
 ### 6. Rename Branch master as main
 Check for existing branch by `git branch`, output would show only one branch `*master`.
-Then rename master to main.
+Then rename `master` to `main`.
 
 ```bash
 git branch
