@@ -41,14 +41,14 @@ Create a repository on GitHub. Add README if needed. If it is not included in th
 git remote add origin git@github.com:<your-username>/<your-repo-name>.git
 ```
 ### 4. Confirm Cloning
-Output would be 
-
-`origin	git@github.com:<your-username>/<your-repo-name>.git (fetch)
-
-origin	ggit@github.com:<your-username>/<your-repo-name>.git (push)`
-
 ```bash
 git remote -v
+```
+
+Output would be:
+```bash 
+origin	git@github.com:<your-username>/<your-repo-name>.git (fetch)
+origin	ggit@github.com:<your-username>/<your-repo-name>.git (push)
 ```
 ### 5. Pull README 
 ```bash
