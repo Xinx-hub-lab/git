@@ -71,6 +71,7 @@ Re-applies your local commits **on top of the remote branch**, resulting in a li
 ```bash
 ## Reapply local commits on top of the fetched branch
 git pull origin main --rebase
+
 ## Set as the default behavior
 git config --global pull.rebase true
 ```
@@ -80,6 +81,7 @@ Only updates your branch if it can be fast-forwarded. It will fail if there are 
 ```bash
 ## Updates your branch if it can be fast-forwarded
 git pull origin main --ff-only
+
 ## Set as the default behavior
 git config --global pull.ff only
 ```
